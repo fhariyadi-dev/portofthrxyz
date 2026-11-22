@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F4F0E8"/>
+  <!-- Grid pattern -->
+  <g stroke="#000000" stroke-opacity="0.07" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="270" x2="800" y2="270"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="160" y1="0" x2="160" y2="450"/>
+    <line x1="320" y1="0" x2="320" y2="450"/>
+    <line x1="480" y1="0" x2="480" y2="450"/>
+    <line x1="640" y1="0" x2="640" y2="450"/>
+  </g>
+  <!-- Shadow -->
+  <rect x="108" y="64" width="600" height="340" rx="16" fill="#000000"/>
+  <!-- Emulator Window -->
+  <rect x="100" y="56" width="600" height="340" rx="16" fill="#0D1117" stroke="#000000" stroke-width="4"/>
+  <!-- Header Bar -->
+  <path d="M100 72 C100 63 107 56 116 56 L684 56 C693 56 700 63 700 72 L700 104 L100 104 Z" fill="#2563EB" stroke="#000000" stroke-width="4"/>
+  <circle cx="130" cy="80" r="8" fill="#EF4444" stroke="#000000" stroke-width="2.5"/>
+  <circle cx="154" cy="80" r="8" fill="#FACC15" stroke="#000000" stroke-width="2.5"/>
+  <circle cx="178" cy="80" r="8" fill="#22C55E" stroke="#000000" stroke-width="2.5"/>
+  <text x="410" y="85" font-family="monospace" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">emu8086 — emulator screen (Luhn Validation)</text>
+
+  <!-- DOS Emulator Output -->
+  <text x="130" y="140" font-family="monospace" font-size="15" font-weight="bold" fill="#FACC15">=== VALIDASI KARTU KREDIT 16 DIGIT ===</text>
+  <text x="130" y="166" font-family="monospace" font-size="13" fill="#E5E7EB">Masukkan nomor kartu 16 digit: 4111111111111111</text>
+
+  <!-- Card Simulation Output Box -->
+  <rect x="130" y="184" width="320" height="150" rx="10" fill="#161B22" stroke="#22C55E" stroke-width="2.5"/>
+  <text x="146" y="210" font-family="monospace" font-size="12" font-weight="bold" fill="#38BDF8">--- DATA KARTU (SIMULASI OTOMATIS) ---</text>
+  <text x="146" y="232" font-family="monospace" font-size="13" fill="#F5F5F4">Jenis  : VISA / MASTERCARD</text>
+  <text x="146" y="252" font-family="monospace" font-size="13" fill="#F5F5F4">Expiry : 12/28   | CVV : ***</text>
+  <text x="146" y="272" font-family="monospace" font-size="13" fill="#F5F5F4">Limit  : IDR 50,000,000</text>
+  <rect x="146" y="290" width="160" height="28" rx="6" fill="#22C55E" stroke="#000000" stroke-width="2"/>
+  <text x="226" y="309" font-family="monospace" font-size="13" font-weight="bold" fill="#111827" text-anchor="middle">HASIL: VALID ✓</text>
+
+  <!-- Credit Card Visual Illustration on Right -->
+  <rect x="472" y="184" width="198" height="125" rx="12" fill="#7C3AED" stroke="#FFFFFF" stroke-width="2.5"/>
+  <rect x="490" y="206" width="36" height="26" rx="5" fill="#FACC15" stroke="#000000" stroke-width="2"/>
+  <text x="650" y="224" font-family="sans-serif" font-size="15" font-weight="900" fill="#FFFFFF" text-anchor="end">VISA</text>
+  <text x="490" y="258" font-family="monospace" font-size="13" font-weight="bold" fill="#FFFFFF">4111 1111 1111 1111</text>
+  <text x="490" y="286" font-family="monospace" font-size="11" fill="#E9D5FF">LUHN CHECKSUM: PASS</text>
+
+  <text x="130" y="366" font-family="monospace" font-size="13" fill="#9CA3AF">&gt; Pilihan (1/2): 2 — Terima Kasih Program selesai.</text>
+
+  <!-- Floating ASM8086 Badge -->
+  <rect x="594" y="32" width="124" height="42" rx="8" fill="#000000"/>
+  <rect x="590" y="28" width="124" height="42" rx="8" fill="#FACC15" stroke="#000000" stroke-width="3"/>
+  <text x="652" y="55" font-family="monospace" font-size="16" font-weight="900" fill="#111827" text-anchor="middle">EMU8086</text>
+</svg>

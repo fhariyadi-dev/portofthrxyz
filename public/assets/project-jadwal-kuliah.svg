@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F4F0E8"/>
+  <!-- Shadow -->
+  <rect x="98" y="58" width="620" height="345" rx="16" fill="#000000"/>
+  <!-- Browser Window -->
+  <rect x="90" y="50" width="620" height="345" rx="16" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <!-- Browser Header -->
+  <path d="M90 66 C90 57 97 50 106 50 L694 50 C703 50 710 57 710 66 L710 98 L90 98 Z" fill="#2563EB" stroke="#000000" stroke-width="4"/>
+  <circle cx="120" cy="74" r="7" fill="#EF4444" stroke="#000000" stroke-width="2.5"/>
+  <circle cx="142" cy="74" r="7" fill="#FACC15" stroke="#000000" stroke-width="2.5"/>
+  <circle cx="164" cy="74" r="7" fill="#22C55E" stroke="#000000" stroke-width="2.5"/>
+  <rect x="200" y="61" width="380" height="26" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <text x="390" y="79" font-family="monospace" font-size="12" font-weight="bold" fill="#111827" text-anchor="middle">website-penjadwalan-mata-kuliah.vercel.app</text>
+
+  <!-- Schedule Header -->
+  <text x="120" y="134" font-family="sans-serif" font-size="18" font-weight="800" fill="#111827">JADWAL MATA KULIAH SEMESTER</text>
+  <rect x="570" y="114" width="110" height="28" rx="6" fill="#FACC15" stroke="#000000" stroke-width="2.5"/>
+  <text x="625" y="133" font-family="monospace" font-size="12" font-weight="bold" fill="#111827" text-anchor="middle">+ Tambah MK</text>
+
+  <!-- Timetable Columns -->
+  <!-- Column 1: Senin -->
+  <rect x="120" y="152" width="175" height="215" rx="10" fill="#FFFDF8" stroke="#000000" stroke-width="3"/>
+  <rect x="120" y="152" width="175" height="34" rx="8" fill="#FACC15" stroke="#000000" stroke-width="3"/>
+  <text x="207" y="174" font-family="monospace" font-size="13" font-weight="bold" fill="#111827" text-anchor="middle">SENIN</text>
+  <rect x="132" y="198" width="151" height="68" rx="6" fill="#DBEAFE" stroke="#000000" stroke-width="2"/>
+  <text x="142" y="220" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111827">Struktur Data</text>
+  <text x="142" y="238" font-family="monospace" font-size="11" fill="#2563EB">08:00 - 10:30</text>
+  <text x="142" y="255" font-family="monospace" font-size="10" fill="#4B5563">R. GIK L2</text>
+  <rect x="132" y="278" width="151" height="68" rx="6" fill="#DCFCE7" stroke="#000000" stroke-width="2"/>
+  <text x="142" y="300" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111827">Penerapan Gen AI</text>
+  <text x="142" y="318" font-family="monospace" font-size="11" fill="#15803D">13:00 - 15:30</text>
+  <text x="142" y="335" font-family="monospace" font-size="10" fill="#4B5563">Lab Komputer</text>
+
+  <!-- Column 2: Rabu -->
+  <rect x="312" y="152" width="175" height="215" rx="10" fill="#FFFDF8" stroke="#000000" stroke-width="3"/>
+  <rect x="312" y="152" width="175" height="34" rx="8" fill="#7C3AED" stroke="#000000" stroke-width="3"/>
+  <text x="400" y="174" font-family="monospace" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">RABU</text>
+  <rect x="324" y="198" width="151" height="68" rx="6" fill="#F3E8FF" stroke="#000000" stroke-width="2"/>
+  <text x="334" y="220" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111827">Pemrograman Web</text>
+  <text x="334" y="238" font-family="monospace" font-size="11" fill="#7C3AED">09:30 - 12:00</text>
+  <text x="334" y="255" font-family="monospace" font-size="10" fill="#4B5563">Lab RPL</text>
+
+  <!-- Column 3: Jumat -->
+  <rect x="505" y="152" width="175" height="215" rx="10" fill="#FFFDF8" stroke="#000000" stroke-width="3"/>
+  <rect x="505" y="152" width="175" height="34" rx="8" fill="#22C55E" stroke="#000000" stroke-width="3"/>
+  <text x="592" y="174" font-family="monospace" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">JUMAT</text>
+  <rect x="517" y="198" width="151" height="68" rx="6" fill="#FEF9C3" stroke="#000000" stroke-width="2"/>
+  <text x="527" y="220" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111827">Basis Data</text>
+  <text x="527" y="238" font-family="monospace" font-size="11" fill="#B45309">08:00 - 10:30</text>
+  <text x="527" y="255" font-family="monospace" font-size="10" fill="#4B5563">R. Teori 3</text>
+</svg>

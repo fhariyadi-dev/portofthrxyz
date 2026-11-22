@@ -1,9 +1,7 @@
 # Fathur — Neo-Brutalism Portfolio
 
-Portofolio interaktif bergaya Neo-Brutalism untuk persona **Fathur**, Frontend Engineer
-yang fokus pada micro-interaction & design system di domain edtech, berbasis di
-Makassar. Dibangun mengikuti sistem desain di Bagian 1 prompt (token warna, tipografi,
-border/shadow/radius) dan spesifikasi section di Bagian 2.
+Portofolio interaktif bergaya Neo-Brutalism untuk **Fathurrahman Hariyadi (Fathur)**, Web Developer
+yang berbasis di Lampung, Indonesia.
 
 ## Tech Stack
 
